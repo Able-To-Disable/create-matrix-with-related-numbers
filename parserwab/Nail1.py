@@ -1,7 +1,9 @@
 import random
 import pickle
+import data dataclass from dataclasses
 
 
+@dataclass
 class MatrixManager:
     _defolt_file_name = 'matrix_data.pkl'
 
@@ -45,3 +47,6 @@ if __name__ == "__main__":
     matrix = matrix_manager.get_new_matrix()
     matrix_manager.display_matrix(matrix)
     matrix_manager.write_matrix(matrix)
+    print(matrix_manager.get_new_matrix.__doc__)
+print(matrix_manager.display_matrix.__doc__)
+print(matrix_manager.write_matrix.__doc__)
