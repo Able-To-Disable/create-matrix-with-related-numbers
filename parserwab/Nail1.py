@@ -1,6 +1,6 @@
 import random
 import pickle
-import data dataclass from dataclasses
+import dataclass from dataclasses
 
 
 @dataclass
