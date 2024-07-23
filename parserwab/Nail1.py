@@ -48,5 +48,5 @@ if __name__ == "__main__":
     matrix_manager.display_matrix(matrix)
     matrix_manager.write_matrix(matrix)
     print(matrix_manager.get_new_matrix.__doc__)
-print(matrix_manager.display_matrix.__doc__)
-print(matrix_manager.write_matrix.__doc__)
+    print(matrix_manager.display_matrix.__doc__)
+    print(matrix_manager.write_matrix.__doc__)
